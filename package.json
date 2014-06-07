@@ -1,0 +1,39 @@
+{
+  "name": "git_info",
+  "description": "Retrieve git informations",
+  "version": "0.1.0",
+  "homepage": "https://github.com/g13013/git_info",
+  "author": {
+    "name": "Aboubakr GASMI",
+    "email": "g13013@gmail.com",
+    "url": "https://github.com/g13013/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/g13013/git_info.git"
+  },
+  "bugs": {
+    "url": "https://github.com/g13013/git_info/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/g13013/git_info/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/git_info",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.4",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt": "~0.4.2",
+    "rewire": "^2.0.1"
+  },
+  "keywords": []
+}
